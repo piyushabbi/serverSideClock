@@ -7,7 +7,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      response: false,
+      response: '',
       endpoint: 'http://127.0.0.1:4001'
     };
   }
